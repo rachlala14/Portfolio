@@ -2,108 +2,123 @@
 
 * {
     margin: 0;
-    padding:0;  
-  }
-  
-  /* Element Selectors */
-  body {
-    position: relative;
-    font-family: "Trebuchet MS";
-    font-size: 20px;
-    background-color: #FDF8F5;
-    color: slategrey;
-  }
-  
-  h1 {
-    line-height: 33px
+    padding:0; 
+    font-family: 'Trebuchet MS';
   }
 
-  h2 {
-    margin: 20px 0;
-  }
-  
-  main {
-    padding: 60px 20px;
-  }
-  
-  li {
-    display: inline;
-    padding: 5px;
-    text-decoration: none;
-  }
-  
-  a {
-    text-decoration: underline;
-    color: #FDF8F5;
-  }
-  
-  header,
-  footer {
-    height: 120px;
-    width: 100%;
-    line-height: 33px;
-    background-color: #535454;
-  }
-  
-  header {
-    position: fixed;
+  /* Nav Bar Styles */
+    .flexbox-container-1 {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color:#323540;
+      height: 140px;
+      width: 100%;
+    }
 
-  }
-  
-  footer {
-    position: absolute;
-    margin-top: 0;
-    bottom: 0;
-    border-bottom: 10px solid #4F4846;
-    color: #FDF8F5;    
-  }
-  
-  figure {
-    margin-bottom: 40px;
-  }
-  
+    .flexbox-item-1 {
+      display:flex;
+      margin-top:auto;
+      margin-bottom: auto;
+      background-color:aquamarine;
+      background-position: left;
+      padding: 10px 10px 10px 50px;
+
+    }
+
+    .flexbox-item-2 {
+      display: flex;
+      width: 400px;
+      margin: auto;
+      text-decoration: underline;
+      color:aquamarine;
+      
+    }
   img {
     display: block;
-    margin: 20px auto;
   }
   
-  section {
-    margin-bottom: 0;
-    padding: 20px 10px 40px 10px;
-    border: 3px solid #slategrey;
-    background-color:   #ffffff;
+/* Main Section Detail*/
+
+.flexbox-container-2 {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  background-color: white;
+  margin: 10px;
+}
+
+.flexbox-item-3 {
+  display:flex;
+  width: 224px;
+  padding-right: 20px;
+  justify-content: flex-end;
+}
+
+.flexbox-item-4 {
+  display: flex;
+  width: 493px;
+  padding-left: 20px;
+}
+
+.flexbox-container-3 {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  background-color: white;
+  margin: 10px;
+}
+
+.flexbox-item-5 {
+  display:flex;
+  width: 224px;
+  padding-right: 20px;
+  justify-content: flex-end;
+}
+
+.flexbox-item-6 {
+  display: flex;
+  width: 493px;
+  padding-left: 20px;
+}
+
+.flexbox-container-4 {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  background-color: white;
+  margin: 10px;
+}
+
+.flexbox-item-7 {
+  display:flex;
+  width: 224px;
+  padding-right: 20px;
+  justify-content: flex-end;
+  border: #323540
+}
+
+.flexbox-item-8 {
+  display: flex;
+  width: 493px;
+  padding-left: 20px;
+}
+
+/* Footer Detail */
+
+.flexbox-container-5 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#323540;
+  color: white;
+  height: 120px;
+  width: 100%;
+
   }
+
   
-  label {
-    display: inline-block;
-    width: 100px;
-  }
-    
-  input, 
-  textarea {
-    box-sizing: border-box;
-    width: 300px;
-    border: 1px solid #4F4846;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 60px;
-  }
-    
-  button {
-    height: 40px;
-    width: 120px;
-    background-color: #4F4846;
-    color: #FDF8F5;
-  }
+
+
    
-  /* Class Selectors */
-  .text-center {
-    text-align: center;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
   
