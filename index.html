@@ -7,94 +7,138 @@
   <title>Rachel Ord - Portfolio</title>
 </head>
 
-<!-- Navigation Bar-->
-  <header>
-    <div class="flexbox-container-1">
-      <div class="flexbox-item-1"> <h1>Rachel Ord</h1></div>
+<!--Nav Bar-->
 
-      <div id="column" class="flexbox-item-2">
-        <ul>
-          <div ><a>About Me</a></div>
-          <div><a>My Work</a></div>
-          <div><a>Contact Me</a></div>
-          <div><a>CV</a></div>
-        </ul>
-      </div>
-  </header>
+<body>
+  <nav id="navBar">
+    <h1>Rachel Ord</h1>
+    <div id="navigation">
+      <a>About Me</a>
+      <a>My Work</a>
+      <a>Contact</a>
+      <a>CV</a>
+    </div>
+  </nav>
 
   <!--Header Image-->
+
   <main>
+    
     <figure>
-      <img src="./assets/02-hero-bg.jpg";
+      <img id="heroimg" src="./assets/02-hero-bg.jpg";
       height="200px"
       width="100%"
       alt="Black and White Chevron lines with wooden texture">
     </figure>
 
-<!--Main Section-->
-
-<section>
-  <div class="flexbox-container-2">
-    <div class="flexbox-item-3"><h1>About Me</h1></div>
-
-    <div class="flexbox-item-4">
-      <p>Currently a Key Account Manager for Sherwin Williams products, with a background in Field Sales, People Management & Law.
-    
-   
-    Learning Front End Development - JavaScript, HTML, CSS, Node.js, APIs.
-
-      
-    Be the energy you want to attract ⚡️</p></div>
-  </div>
-</section>
-
-<section>
+  <!--Section 1 About Me-->
   
-  <div class="flexbox-container-3">
-   <div class="flexbox-item-5"> <h1>My Work</h1>
-  </div>
+  <section>
 
+    <div class="flex-container-1">
+      <div id="about-me" style="flex-basis: 25%">
+        <h1>About Me</h1>
+      </div>
 
-  <div class="flexbox-item-6">
-    <div class="item1" id="surf-report"><h4>Surf Report</h4><h6>MERN Stack</h6> <img src="./assets/02-portfolio-4.jpg" class="item1" alt="man looking at silhouette of someone surfing in the waves"></div>
+      <img id="rachelprofile" src="./assets/rachel-image.jpeg";
+      height= auto;
+      width="25%"
+      alt="Portfolio profile photo of Rachel Ord - brown hair, white top">
 
-    <div class="item2" id="led-wall"><h4>LED Wall</h4><h6>Node/IoT</h6><img src="./assets/02-portfolio-1.jpg" class="item2" alt="wall of red led lights"></div>
+      <div id="content-section1" style="flex-basis:50%">
+        <p>Currently a Key Account Manager for Sherwin Williams products, with a background in Field Sales, People Management & Law.</p><br>
+        <p>Learning Front End Development - JavaScript, HTML, CSS, Node.js, APIs.</p><br>
 
-    <div class="item3" id="calculator"><h4>Calculator</h4><h6>React/JavaScript/CSS</h6><img src="./assets/02-portfolio-2.jpg" class="item3" alt="digital calculator shown on a laptop screen"></div>
+        <p>Be the energy you want to attract ⚡️ </p>
+      </div>
 
-    <div class="item4" id="pastel-puzzles"><h4>Pastel Puzzles</h4><h6>MERN Stack</h6><img src="./assets/02-portfolio-3.jpg" class="item4" alt="background showing pastel pink and blue triangles with a pastel blue car on the pink triangle"></div>
+    </div>
 
-    <div class="item5" id="run-buddy"><h4>Run Buddy</h4><h6>HTML/CSS</h6><img src="./assets/02-run-buddy.jpg" class="item5" alt="landing page of Run Buddy Application"></div>
+  </section>
 
-  </grid>
-</div>
-</section>
+    <!--Section 2 My Work-->
 
-<section>
-  <div class="flexbox-container-7">
-  <div class="flexbox-item-9"> <h1>Contact Me</h1>
-  </div>
+  <section>
+  
+    <div class="flex-container-2">
+      <div id="my-work" style="flex-basis:25%">
+       <h1>My Work</h1>
+      </div>
+  
+    <div id="myworkGrid" style="flex-basis:75%">
+      
+      <div id="surf-report">
+        <div><h4>Surf Report</h4></div>
+        <div><h5>Mern Stack</h5></div> </div>
+    
+      
+      <div id="led-wall">
+        <div>
+          <h4>LED Wall</h4></div>
+          <div><h5>Node/IoT</h5></div> </div>
+    
+    
+      <div id="calculator">
+        <div><h4>Calculator</h4></div>
+        <div><h5>React/JavaScript/CSS</h5></div> </div>
+    
+    
+      <div id="pastel-puzzles">
+        <div><h4>Pastel Puzzles</h4></div>
+        <div><h5>MERN Stack</h5></div> </div>
+    
+      <div id="run-buddy">
+        <div><h4>Run Buddy</h4></div>
+        <div><h5>HTML/CSS</h5></div></div>
+    
+    </div>
 
-  <div class="flexbox-item-10">
-    <ul>
-  <div><a>+44 7960 988 534</a></div>
-  <div><a href="mailto:rachellaird@hotmail.co.uk?subject=Portfolio Enquiry" target="__blank">Email</a></div>
-  <div><a href="https://github.com/rachlala14">GitHub</a></div>
-  <div><a href="https://www.linkedin.com/in/rachel-laird-ord-b7313611b/">LinkedIn</a></div>
-</ul>
-</div>
-</section>
+    </section>
 
+    <!--Section 3 Contact Me-->
+    <section>
+      
+    <div class="flex-container-3">
+      <div id="contact-me" style="flex-basis:25%">
+      <h1>Contact Me</h1>
+      </div>
+    
+      <div id="title-section" style="flex-basis:18.75%">
+        <div>
+            <a>07960 988 534</a>
+          </div>
+      </div>
 
+      <div id="title-section" style="flex-basis:18.75%">
+          <div>
+            <a href="mailto:rachellaird@hotmail.co.uk?subject=Portfolio Enquiry" target="__blank">Email</a>
+          </div>
+      </div>
 
+      <div id="title-section" style="flex-basis:18.75%">
+          <div>
+            <a href="https://github.com/rachlala14">GitHub</a>
+          </div>
+      </div>
 
-<!--Footer-->
+      <div id="title-section" style="flex-basis:18.75%">
+          <div>
+            <a href="https://www.linkedin.com/in/rachel-laird-ord-b7313611b/">LinkedIn</a>
+          </div>
+      </div>
 
-<footer >
-  <div class="flexbox-container-8">
-    <div><h3>© 2022 Rachel Ord</h3>
-  </div>
-</div>
-</footer>
+    </section>
+
+  </body>
+
+  <!--Footer-->
+
+  <footer>
+    <div class="footer">
+      <div>
+        <h3>© 2022 Rachel Ord</h3>
+      </div>
+    </div>
+  </footer>
 
 </html>
